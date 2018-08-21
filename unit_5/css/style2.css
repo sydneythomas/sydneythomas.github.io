@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Slabo+27px');
+
+
+.header-cont {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+
+.header {
+    height: 75px;
+    background: #40bca1;
+    border:2px solid #000;
+    width:100%;
+    margin:0px auto;
+    font-family: Helvetica;
+
+    /*position: fixed;*/
+
+}
+
+
+.maincontent {
+    padding: 5em;
+    padding-top: 1em;
+}
+
+.borderbox {
+    FIGURE OUT HOW TO PUT A BOX AROUND THE GRID
+}
+
+
+.onethirdbox {
+  float: left;
+  width: 30% ;
+  padding-right: 1em;
+}
+
+.twothirdsbox {
+  float: right;
+  width: 60%;
+ 
+}
+
+.workcontainers {
+    font-family: 'Slabo 27px', serif;
+}
+
+h2, .w3-container {
+    font-family: 'Cabin', sans-serif;
+}
+
+/*.footer {
+  position: absolute;
+  right: 0;
+  bottom: 100%;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}*/
