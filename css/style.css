@@ -7,7 +7,7 @@
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -30,6 +30,11 @@ a {
     color: #2c98f0;
     outline: none;
     text-decoration: none !important; }
+
+.colorlib-footer
+  i:hover {
+    color: #f9bf3f;
+  }
 
 p {
   margin-bottom: 1.5em; }
