@@ -356,6 +356,7 @@ body.offcanvas {
     -o-transform: translateX(0);
     transform: translateX(0);
     width: 300px;
+    height: 100vh;
     background: #f2f3f7;
     z-index: 999;
     position: fixed; }
