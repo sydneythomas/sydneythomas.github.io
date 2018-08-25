@@ -1201,16 +1201,27 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script>
               <div class="col-md-10 col-md-offset-1 col-md-pull-1" data-animate-effect="fadeInRight">
                   <form  method="POST" action="https://formspree.io/sydneyathomas@gmail.com">
                     <div class="form-group">
-                      <input name="name" type="text" class="form-control" placeholder="Name">
+                      <input name="name" type="text" class="form-control" placeholder="Name" required="required">
                     </div>
                     <div class="form-group">
-                      <input name="_replyto" type="email" class="form-control" placeholder="Email">
+                      <input name="_replyto" type="email" class="form-control" placeholder="Email" required="required">
                     </div>
+                   <!--  <div class="form-group">
+                      <input name="subject" type="text" class="form-control" placeholder="Subject" required="required">
+                    </div> -->
                     <div class="form-group">
-                      <input name="subject" type="text" class="form-control" placeholder="Subject">
-                    </div>
+                      <label for="c-form-subject">
+                          <span class="label-text">Choose a subject:</span>
+                          <span class="contact-error"></span>
+                      </label>
+                      <select name="subject" class="c-form-subject form-control" id="c-form-subject">
+                          <option value="general">General Inquiry</option>
+                          <option value="film">Film / TV Work</option>
+                          <option value="code">Web / Software Development</option>
+                      </select>
+                  </div>
                     <div class="form-group">
-                      <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                      <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Message" required="required"></textarea>
                     </div>
                     <div class="form-group">
                       <input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
